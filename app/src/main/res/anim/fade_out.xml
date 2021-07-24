@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Muhamad Syafii
+  ~ Tuesday, 23/02/2021
+  ~ Copyright (c) 2021 by CXRUS.
+  ~ All Rights Reserved
+  ~
+  -->
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="500"
+    android:fillAfter="true"
+    android:fromAlpha="1.0"
+    android:interpolator="@android:anim/accelerate_interpolator"
+    android:toAlpha="0.0" />
