@@ -87,7 +87,7 @@ class WebViewActivity : AppCompatActivity() {
     fun openBrosur(){
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Pengumuman")
-        builder.setMessage("Silakahkan Tekan Buka untuk melihat Brosur kampus")
+        builder.setMessage("Silahkan Tekan Buka untuk melihat Brosur kampus")
         builder.setPositiveButton("Buka") { dialog, which ->
             val move = Intent(this@WebViewActivity, BrosurActivity::class.java)
             startActivity(move)
